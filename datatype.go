@@ -10,6 +10,9 @@ func main() {
 	//String
 	fmt.Println(len("Hello World"))
 	fmt.Println("Hello World"[1])
+	fmt.Println("Hello World"[1:4])
+	fmt.Println("Hello World"[:1])
+	fmt.Println("Hello World"[2:])
 	fmt.Println("Hello " + "World")
 
 	//Boolean
